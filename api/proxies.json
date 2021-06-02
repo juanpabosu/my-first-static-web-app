@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "apioracle": {
+      "matchCondition": {
+          "route": "/api/secure/{*restOfPath}"
+      },
+      "backendUri": "https://apivida.labsura.com/{restOfPath}"
+  }
+}
