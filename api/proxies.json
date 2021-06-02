@@ -5,7 +5,7 @@
       "matchCondition": {
           "route": "/api/secure/{*restOfPath}"
       },
-      "backendUri": "https://apivida.labsura.com/{restOfPath}"
+      "backendUri": "https://apivida.labsura.com/secure/{restOfPath}"
    }
  }
 }
