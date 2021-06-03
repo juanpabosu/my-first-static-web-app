@@ -3,9 +3,9 @@
   "proxies": {
     "apioracle": {
       "matchCondition": {
-          "route": "/api/secure/{*restOfPath}"
+          "route": "/api/secure/{*restofpath}"
       },
-      "backendUri": "https://apivida.labsura.com/secure/{restOfPath}"
+      "backendUri": "https://apivida.labsura.com/secure/{restofpath}"
    }
  }
 }
